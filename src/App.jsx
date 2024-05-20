@@ -102,10 +102,6 @@ const data=[
     author:"By Lahari Chandana",
     date:"Apr 16, 2024"
   },
-
-
-
-
 ]
 
   return (
