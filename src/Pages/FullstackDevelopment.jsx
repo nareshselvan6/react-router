@@ -6,6 +6,7 @@ const FullstackDevelopment = ({data}) => {
     const filterdata=data.filter((ele)=>ele.head==="fsd")
     return (
         <div>
+            
             <h1>FullstackDevelopment</h1>
             <div className='parent'> 
             {filterdata.map((element,index)=>{
