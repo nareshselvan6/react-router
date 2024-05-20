@@ -7,12 +7,20 @@ import CyberSecurity from './Pages/CyberSecurity';
 import Career from './Pages/Career';
 import NotFound from './Pages/NotFound';
 import NavBar from './Components/NavBar';
+import imagefsd1 from'./image/best fullstack development project.jpg'
+import imagefsd2 from'./image/react.jpg'
+import imageds from'./image/datascience.webp'
+import imagecs2 from'./image/cybersecurityvsethical.webp'
+import imagecs1 from'./image/cybersecuity-importance.gif'
+import imagecrer1 from'./image/datasciencevsdataanalytics.webp'
+import imagecrer2 from'./image/howdoishift.jpg'
+
 
 const App = () => {
 const data=[
   {
     head:"fsd",
-    image:"https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html.jpg",
+    image:imagefsd1,
     content:"Best Full-Stack Development Project Ideas in 2024",
     author:"By Isha Sharma",
     date:"25 Mar, 2024"
@@ -26,7 +34,7 @@ const data=[
   },
   {
     head:"fsd",
-    image:"https://www.guvi.in/blog/wp-content/uploads/2021/05/react-600x314.jpg",
+    image:imagefsd2,
     content:"6 Essential Prerequisites For Learning ReactJS",
     author:"By Ramkumar",
     date:"25 Mar, 2024"
@@ -47,7 +55,7 @@ const data=[
   },
   {
     head:"ds",
-    image:"https://www.guvi.in/blog/wp-content/uploads/2022/06/5.-data-science-1536x804.png",
+    image:imageds,
     content:"Can A Commerce Student Do Data Science?",
     author:"By Saakshi Priyadarshini",
     date:"16 Apr, 2024"
@@ -61,21 +69,21 @@ const data=[
   },
   {
     head:"cs",
-    image:"https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif",
+    image:imagecs1,
     content:"What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
     author:"By Tushar Vinocha",
     date:"Oct 04, 2023"
   },
   {
     head:"cs",
-    image:"https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png",
+    image:imagecs2,
     content:"Cybersecurity Vs Ethical Hacking: Top 10 Differences",
     author:"By Tushar Vinocha",
     date:"16 Apr, 2024"
   },
   {
     head:"career",
-    image:"https://www.guvi.in/blog/wp-content/uploads/2022/06/Your-paragraph-text-1536x768.png",
+    image:imagecrer1,
     content:"Data Science vs Data Analytics | Best Career Choice in 2024",
     author:"By Lahari Chandana",
     date:"Apr 16, 2024"
@@ -89,7 +97,7 @@ const data=[
   },
   {
     head:"career",
-    image:"https://www.guvi.in/blog/wp-content/uploads/2023/05/2202.i402.018.S.m004.c13.Devops-engineer-flat-composition-1536x1182.jpg",
+    image:imagecrer2,
     content:"As a Software Engineer, How Do I Shift My Career to DevOps?",
     author:"By Lahari Chandana",
     date:"Apr 16, 2024"
