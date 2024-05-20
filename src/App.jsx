@@ -120,7 +120,7 @@ const data=[
         <Route path='/ds' element={<DataScience data={data}/>}/>
         <Route path='/cs' element={<CyberSecurity data={data}/>}/>
         <Route path='/career' element={<Career data={data}/>}/>
-        <Route path='*' element={<NotFound/>}/>
+        <Route path='/*' element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
     </div>
