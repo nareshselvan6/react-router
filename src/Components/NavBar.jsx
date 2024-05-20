@@ -1,4 +1,5 @@
 import React from "react";
+import image from"../image/Guvi Brand Logo.png"
 import { Link } from "react-router-dom";
 import "../Components/NavBar.css"
 
@@ -7,7 +8,7 @@ const NavBar = () => {
     <div>
       <nav className="navbar navbar-expand-lg  ">
   <div className="container-fluid">
-  <img src="src\image\Guvi Brand Logo.png" alt="GuviBrandLogo" className='brand' />
+  <img src={image} alt="GuviBrandLogo" className='brand' />
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
