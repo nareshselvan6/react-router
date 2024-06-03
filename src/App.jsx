@@ -112,9 +112,9 @@ const data=[
       </div>
       <Routes>
         <Route path='/' element={<All data={data}/>}/>
-        <Route path='/FullStack' element={<FullstackDevelopment data={data}/>}/>
-        <Route path='/DataScience' element={<DataScience data={data}/>}/>
-        <Route path='/CyberSecurity' element={<CyberSecurity data={data}/>}/>
+        <Route path='/fsd' element={<FullstackDevelopment data={data}/>}/>
+        <Route path='/ds' element={<DataScience data={data}/>}/>
+        <Route path='/cs' element={<CyberSecurity data={data}/>}/>
         <Route path='/Career' element={<Career data={data}/>}/>
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
