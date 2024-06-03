@@ -3,7 +3,7 @@ import Card from '../Components/Card';
 import "../Components/Card.css";
 
 const CyberSecurity = ({data}) => {
-    const filterdata=data.filter((ele)=>ele.head==="cs")
+    const filterdata=data.filter((ele)=>ele.head==="CyberSecurity")
     return (
         <div>
             <h1>CyberSecurity</h1>

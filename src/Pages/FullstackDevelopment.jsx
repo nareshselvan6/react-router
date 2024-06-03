@@ -3,7 +3,7 @@ import Card from '../Components/Card';
 import "../Components/Card.css";
 
 const FullstackDevelopment = ({data}) => {
-    const filterdata=data.filter((ele)=>ele.head==="fsd")
+    const filterdata=data.filter((ele)=>ele.head==="FullStack")
     return (
         <div>
             

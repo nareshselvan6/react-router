@@ -19,63 +19,63 @@ import imagecrer2 from'./image/howdoishift.jpg'
 const App = () => {
 const data=[
   {
-    head:"fsd",
+    head:"FullStack",
     image:imagefsd1,
     content:"Best Full-Stack Development Project Ideas in 2024",
     author:"By Isha Sharma",
     date:"25 Mar, 2024"
   },
   {
-    head:"fsd",
+    head:"FullStack",
     image:"https://www.guvi.in/blog/wp-content/uploads/2023/07/how-long-it-would-it-take-to-learn-full-stack-development_-1536x804.webp",
     content:"How Long Would It Take to Be a Full Stack Developer?",
     author:"By Meghana D",
     date:"26 Mar, 2024"
   },
   {
-    head:"fsd",
+    head:"FullStack",
     image:imagefsd2,
     content:"6 Essential Prerequisites For Learning ReactJS",
     author:"By Ramkumar",
     date:"25 Mar, 2024"
   },
   {
-    head:"ds",
+    head:"DataScience",
     image:"https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.webp",
     content:"Top 10 High Paying Non-Coding Jobs in Data Science in 2024",
     author:"By Isha Sharma",
     date:"Apr 16, 2024"
   },
   {
-    head:"ds",
+    head:"DataScience",
     image:"https://www.guvi.in/blog/wp-content/uploads/2023/07/Real-World-Data-Science-Examples-1536x804.webp",
     content:"12 Real-World Data Science Examples: Power Of Data Science",
     author:"By Lukesh S",
     date:"25 Mar, 2024"
   },
   {
-    head:"ds",
+    head:"DataScience",
     image:imageds,
     content:"Can A Commerce Student Do Data Science?",
     author:"By Saakshi Priyadarshini",
     date:"16 Apr, 2024"
   },
   {
-    head:"cs",
+    head:"CyberSecurity",
     image:"https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
     content:"Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
     author:"By Jaishree Tomar",
     date:"Mar 26, 2024"
   },
   {
-    head:"cs",
+    head:"CyberSecurity",
     image:imagecs1,
     content:"What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
     author:"By Tushar Vinocha",
     date:"Oct 04, 2023"
   },
   {
-    head:"cs",
+    head:"CyberSecurity",
     image:imagecs2,
     content:"Cybersecurity Vs Ethical Hacking: Top 10 Differences",
     author:"By Tushar Vinocha",
@@ -114,7 +114,7 @@ const data=[
         <Route path='/' element={<All data={data}/>}/>
         <Route path='/FullStack' element={<FullstackDevelopment data={data}/>}/>
         <Route path='/DataScience' element={<DataScience data={data}/>}/>
-        <Route path='/CuberSecurity' element={<CyberSecurity data={data}/>}/>
+        <Route path='/CyberSecurity' element={<CyberSecurity data={data}/>}/>
         <Route path='/Career' element={<Career data={data}/>}/>
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
